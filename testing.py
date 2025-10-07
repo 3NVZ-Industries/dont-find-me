@@ -30,6 +30,14 @@ FAKES = {
     "bearer_token": "FAKE_BEARER_TOKEN_111ZZZ_DO_NOT_USE"
 }
 
+FAKES = {
+    "token": "FAKE_TOKEN_ABC123_DO_NOT_USE",
+    "auth_token": "FAKE_AUTH_TOKEN_456XYZ_DO_NOT_USE",
+    "access_token": "FAKE_ACCESS_TOKEN_789QWE_DO_NOT_USE",
+    "refresh_token": "FAKE_REFRESH_TOKEN_000RST_DO_NOT_USE",
+    "bearer_token": "FAKE_BEARER_TOKEN_111ZZZ_DO_NOT_USE"
+}
+
 # 1) Python module with direct assignments
 py_content = textwrap.dedent(f"""
 # sample_config.py - direct secret assignments (bad practice)
